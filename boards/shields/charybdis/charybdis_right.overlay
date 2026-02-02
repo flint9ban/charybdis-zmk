@@ -75,19 +75,8 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-input-processors = <
-        /* 先映射 XY → scroll（如果还没做） */
-        &zip_xy_to_scroll_mapper
 
-        /* 再调节幅度：乘以 2.0 → 滚动幅度变大一倍；乘以 0.5 → 变小一半 */
-        &zip_scroll_scaler {
-            multiplier = <50>;   // 分子，200 = 2.0 倍
-            divisor    = <100>;   // 分母，通常保持 100
-        }
 
-        /* 可选：再加个反转（如果方向相反） */
-        /* &zip_scroll_transform { flags = <INPUT_TRANSFORM_SCROLL_Y_INVERT>; } */
-    >;
 	scroll {
 		    layers = <6>;
 		    input-processors = <
@@ -103,6 +92,7 @@ input-processors = <
     };
   };
 };
+
 
 
 
