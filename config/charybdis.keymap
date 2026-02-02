@@ -134,10 +134,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-  &trans  &trans  &trans  &trans          &trans    &kp PAGE_UP  &kp PAGE_DOWN     &kp UP_ARROW       &kp LEFT_BRACE  &kp RIGHT_BRACE
-  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans    &kp LEFT     &kp LEFT          &kp DOWN_ARROW     &kp RIGHT       &kp C_KBIA_PREV
-  &trans  &trans  &trans  &trans          &trans    &kp HOME     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END         &kp BACKSPACE
-                  &trans  &trans          &trans    &trans       &trans
+  &kp ESCAPE  &trans  &trans  &trans          &trans    &kp PAGE_UP  &kp PAGE_DOWN     &kp UP_ARROW       &kp LEFT_BRACE  &kp RIGHT_BRACE
+  &trans      &trans  &trans  &kp LEFT_SHIFT  &trans    &kp LEFT     &kp LEFT          &kp DOWN_ARROW     &kp RIGHT       &kp C_KBIA_PREV
+  &trans      &trans  &trans  &trans          &trans    &kp HOME     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END         &kp BACKSPACE
+                      &trans  &trans          &trans    &trans       &trans
             >;
         };
 
