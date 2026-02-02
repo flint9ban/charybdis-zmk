@@ -128,7 +128,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - DOWN ARROW
   - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
+  - KBIA PREV
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
