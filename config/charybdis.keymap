@@ -87,12 +87,12 @@
     combos {
         compatible = "zmk,combos";
 
-        lclk {
+        lclk_comb {
             bindings = <&mkp LCLK>;
             key-positions = <26 27>;
         };
 
-        rclk {
+        rclk_comb {
             bindings = <&mkp RCLK>;
             key-positions = <27 28>;
         };
