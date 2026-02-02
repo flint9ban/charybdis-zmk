@@ -33,7 +33,7 @@ layers:
   - /
   - {t: '$$mdi:keyboard-tab$$', h: Navigation}
   - {t: '$$mdi:keyboard-return$$', h: LEFT SHIFT}
-  - {t: ESCAPE, h: Numeral/Function}
+  - {t: ESCAPE, h: Sniper}
   - {t: '$$mdi:keyboard-space$$', h: RIGHT SHIFT}
   - {t: '$$mdi:backspace$$', h: Numeral/Function}
   Numeral/Function:
@@ -69,9 +69,9 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Symbol:
   - '~'
   - '&'
@@ -275,17 +275,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
@@ -307,3 +307,5 @@ combos:
 - p: [26, 27]
   k: '&mkp MCLK'
   l: [Base]
+- p: [26, 27]
+  k: '&mkp LCLK'
