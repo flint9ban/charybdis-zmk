@@ -24,7 +24,7 @@
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
 
-    #include "combos.dtsi"
+    //#include "combos.dtsi"
 
     behaviors {
         hml: homewrow_mods_left {
